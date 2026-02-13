@@ -14,7 +14,8 @@ const PEOPLE: BioPerson[] = [
   {
     name: "D. Brereton",
     initials: "DB",
-    image: "/4.png"
+    image: "/4.png",
+    title: "Metropolitan Bishop"
   },
   {
     name: "W. Broomfield",
