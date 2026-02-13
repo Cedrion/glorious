@@ -18,36 +18,38 @@ export const CoatOfArmsSection: React.FC = () => {
       <div className="text-center px-6 lg:px-[6vw]">
         {/* Centered crest */}
         <div
-          className={`mb-6 lg:mb-8 transition-all duration-1000 ease-out ${
-            isVisible ? 'opacity-100 scale-100 rotate-0' : 'opacity-0 scale-60 -rotate-8'
-          }`}
+          className={`mb-6 lg:mb-8 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
         >
-          <CoatOfArms size={120} className="lg:w-[200px]" />
+          <div className="w-40 h-24 lg:w-64 lg:h-40 mx-auto flex items-center justify-center overflow-hidden">
+            <img
+              src="/nav%20logo.png"
+              alt="FTA Official Logo"
+              className="w-full h-full object-contain"
+            />
+          </div>
         </div>
 
         {/* Headline */}
         <h2
-          className={`text-xl lg:text-[2.4vw] font-bold text-white leading-[1.15] mb-3 lg:mb-4 transition-all duration-1000 ease-out delay-200 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-          }`}
+          className={`text-xl lg:text-[2.4vw] font-bold text-white leading-[1.15] mb-3 lg:mb-4 transition-all duration-1000 ease-out delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
         >
-          Coat of Arms & Seminary Identity
+          Seminary Identity
         </h2>
 
         {/* Subheadline */}
         <p
-          className={`text-sm lg:text-[1.1vw] text-white/80 max-w-2xl mx-auto mb-4 lg:mb-6 px-4 lg:px-0 transition-all duration-1000 ease-out delay-300 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-          }`}
+          className={`text-sm lg:text-[1.1vw] text-white/80 max-w-2xl mx-auto mb-4 lg:mb-6 px-4 lg:px-0 transition-all duration-1000 ease-out delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+            }`}
         >
-          The Lion and the Hummingbird represent strength, courage, vigilance, devotion, and purposeful service.
+          The official seal of FTA Theological Seminary represents our commitment to apostolic excellence, spiritual formation, and global ministry.
         </p>
 
         {/* Scripture */}
         <div
-          className={`flex items-center justify-center gap-2 lg:gap-3 mb-6 lg:mb-8 px-4 lg:px-0 transition-all duration-1000 ease-out delay-400 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-          }`}
+          className={`flex items-center justify-center gap-2 lg:gap-3 mb-6 lg:mb-8 px-4 lg:px-0 transition-all duration-1000 ease-out delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+            }`}
         >
           <Quote size={16} className="lg:w-5 lg:h-5 text-[var(--gold)] flex-shrink-0" />
           <p className="text-xs lg:text-sm text-[var(--gold)] italic">
@@ -57,9 +59,8 @@ export const CoatOfArmsSection: React.FC = () => {
 
         {/* Motto pill */}
         <div
-          className={`inline-block transition-all duration-1000 ease-out delay-500 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-          }`}
+          className={`inline-block transition-all duration-1000 ease-out delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+            }`}
         >
           <div className="px-4 lg:px-6 py-2 lg:py-3 bg-[var(--gold)]/10 rounded-full border border-[var(--gold)]/30">
             <span className="text-xs lg:text-sm font-semibold text-white tracking-wider">

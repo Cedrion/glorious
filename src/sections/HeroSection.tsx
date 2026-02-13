@@ -30,22 +30,14 @@ export const HeroSection: React.FC = () => {
       {/* Pattern overlay */}
       <div className="pattern-overlay" />
 
-      {/* Coat of Arms (top right - hidden on mobile) */}
-      <div
-        className={`hidden lg:block absolute right-[6vw] top-[6vh] transition-all duration-1000 ease-out z-20 ${
-          isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-85'
-        }`}
-      >
-        <CoatOfArms size={100} />
-      </div>
+
 
       {/* Mobile Layout */}
       <div className="lg:hidden flex flex-col min-h-screen pt-20 pb-8 px-6">
         {/* Image */}
         <div
-          className={`relative w-full aspect-[4/3] rounded-[18px] overflow-hidden card-shadow mb-6 transition-all duration-1000 ease-out ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-          }`}
+          className={`relative w-full aspect-[4/3] rounded-[18px] overflow-hidden card-shadow mb-6 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
         >
           <img
             src="/hero_classroom.jpg"
@@ -60,7 +52,7 @@ export const HeroSection: React.FC = () => {
             {headlineText}
           </h1>
           <div className="w-16 h-0.5 bg-[var(--gold)] mb-4" />
-          
+
           <p className="text-sm text-[var(--lavender)] leading-relaxed mb-6">
             FTA Theological Seminary provides structured, faith-centered training in Oneness Apostolic theology, biblical studies, and ministry leadership.
           </p>
@@ -107,7 +99,7 @@ export const HeroSection: React.FC = () => {
             className="w-full h-full object-cover"
           />
           {/* Gradient fade to white on the right edge */}
-          <div 
+          <div
             className="absolute top-0 right-0 w-[40%] h-full"
             style={{
               background: 'linear-gradient(to right, transparent 0%, var(--parchment) 100%)'
@@ -119,16 +111,15 @@ export const HeroSection: React.FC = () => {
         <div className="w-[45%] h-full flex flex-col justify-center pr-[6vw] pl-8">
           {/* Headline */}
           <div
-            className={`transition-all duration-1000 ease-out delay-300 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-            }`}
+            className={`transition-all duration-1000 ease-out delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+              }`}
           >
             <h1 className="text-[2.8vw] font-bold text-[var(--ink-purple)] leading-[1.15]">
               {words.map((word, i) => (
                 <span
                   key={i}
                   className="inline-block mr-[0.3em]"
-                  style={{ 
+                  style={{
                     opacity: isVisible ? 1 : 0,
                     transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
                     transition: `all 0.6s ease-out ${300 + i * 50}ms`
@@ -138,9 +129,9 @@ export const HeroSection: React.FC = () => {
                 </span>
               ))}
             </h1>
-            <div 
+            <div
               className="mt-4 h-0.5 bg-[var(--gold)]"
-              style={{ 
+              style={{
                 width: isVisible ? '96px' : '0',
                 transition: 'width 0.8s ease-out 800ms'
               }}
@@ -149,18 +140,16 @@ export const HeroSection: React.FC = () => {
 
           {/* Subheadline */}
           <p
-            className={`mt-6 text-[1vw] text-[var(--lavender)] leading-relaxed transition-all duration-1000 ease-out delay-700 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
+            className={`mt-6 text-[1vw] text-[var(--lavender)] leading-relaxed transition-all duration-1000 ease-out delay-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+              }`}
           >
             FTA Theological Seminary provides structured, faith-centered training in Oneness Apostolic theology, biblical studies, and ministry leadership—equipping clergy and lay leaders to serve with competence, conviction, and spiritual depth.
           </p>
 
           {/* CTAs */}
           <div
-            className={`mt-8 flex gap-4 transition-all duration-1000 ease-out delay-900 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
+            className={`mt-8 flex gap-4 transition-all duration-1000 ease-out delay-900 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+              }`}
           >
             <button
               onClick={() => scrollToSection('programs')}
@@ -180,18 +169,16 @@ export const HeroSection: React.FC = () => {
 
           {/* Micro line */}
           <p
-            className={`mt-4 text-xs text-[var(--lavender)] italic transition-all duration-1000 ease-out delay-1000 ${
-              isVisible ? 'opacity-100' : 'opacity-0'
-            }`}
+            className={`mt-4 text-xs text-[var(--lavender)] italic transition-all duration-1000 ease-out delay-1000 ${isVisible ? 'opacity-100' : 'opacity-0'
+              }`}
           >
             Seminary of the Archdiocese of Glorious Churches of Canada
           </p>
 
           {/* Semester indicator */}
           <div
-            className={`mt-8 inline-flex items-center gap-3 px-4 py-3 bg-surface-lavender rounded-[14px] w-fit transition-all duration-1000 ease-out delay-1100 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
+            className={`mt-8 inline-flex items-center gap-3 px-4 py-3 bg-surface-lavender rounded-[14px] w-fit transition-all duration-1000 ease-out delay-1100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+              }`}
           >
             <span className="text-sm font-semibold text-[var(--ink-purple)]">Winter Semester (Current)</span>
             <span className="w-1.5 h-1.5 rounded-full bg-[var(--gold)]" />

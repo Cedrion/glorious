@@ -31,9 +31,8 @@ export const ContactSection: React.FC = () => {
       <div className="w-full px-6 lg:px-[6vw] py-16 lg:py-[10vh] flex flex-col lg:flex-row gap-10 lg:gap-12">
         {/* Left column - Contact info */}
         <div
-          className={`w-full lg:w-[45%] transition-all duration-1000 ease-out ${
-            isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-[10vw]'
-          }`}
+          className={`w-full lg:w-[45%] transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-[10vw]'
+            }`}
         >
           <h2 className="text-2xl lg:text-[2.4vw] font-bold text-white leading-[1.15] mb-4 lg:mb-6">
             Get in Touch
@@ -93,9 +92,8 @@ export const ContactSection: React.FC = () => {
 
         {/* Right column - Form */}
         <div
-          className={`w-full lg:w-[55%] transition-all duration-1000 ease-out delay-200 ${
-            isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-[10vw]'
-          }`}
+          className={`w-full lg:w-[55%] transition-all duration-1000 ease-out delay-200 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-[10vw]'
+            }`}
         >
           <div className="bg-white/5 rounded-[14px] lg:rounded-[18px] p-5 lg:p-8 border border-white/10">
             <h3 className="text-lg lg:text-xl font-semibold text-white mb-4 lg:mb-6">
@@ -157,15 +155,19 @@ export const ContactSection: React.FC = () => {
         className="w-full px-6 lg:px-[6vw] py-6 lg:py-8 border-t border-white/10"
       >
         <div
-          className={`flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-6 transition-all duration-1000 ease-out ${
-            footerAnimation.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-          }`}
+          className={`flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-6 transition-all duration-1000 ease-out ${footerAnimation.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+            }`}
         >
           {/* Logo and verse */}
           <div className="text-center lg:text-left">
-            <p className="font-['Cinzel'] text-lg lg:text-xl font-bold text-white mb-1">
-              FTA Theological Seminary
-            </p>
+            <div className="flex items-center justify-center lg:justify-start gap-3 mb-2">
+              <div className="w-16 h-10 lg:w-20 lg:h-12 flex items-center justify-center overflow-hidden">
+                <img src="/nav%20logo.png" alt="FTA Logo" className="w-full h-full object-contain" />
+              </div>
+              <p className="font-['Cinzel'] text-lg lg:text-xl font-bold text-white">
+                FTA Theological Seminary
+              </p>
+            </div>
             <p className="text-xs text-white/60">
               "And without controversy great is the mystery of godliness…" — 1 Timothy 3:16
             </p>

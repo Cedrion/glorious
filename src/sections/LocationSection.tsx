@@ -48,7 +48,7 @@ export const LocationSection: React.FC = () => {
               isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-[10vw]'
             }`}
           >
-            Toronto, Ontario
+            York, Ontario
           </h2>
 
           <div className="w-16 lg:w-20 h-0.5 bg-[var(--gold)] mb-4 lg:mb-6" />
@@ -58,7 +58,7 @@ export const LocationSection: React.FC = () => {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-            FTA is based in Toronto, Ontario, with connections across Canada and the world.
+            FTA is based in York, Ontario, with connections across Canada and the world.
           </p>
 
           <div
@@ -72,7 +72,7 @@ export const LocationSection: React.FC = () => {
                 10 Maplewood Ave
               </p>
               <p className="text-xs lg:text-sm text-[var(--lavender)]">
-                Toronto, Ontario, Canada, L4Z 0A8
+                York, ON M6C 1J1
               </p>
             </div>
           </div>
@@ -84,7 +84,7 @@ export const LocationSection: React.FC = () => {
             }`}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.0!2d-79.0!3d43.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDQyJzAwLjAiTiA3OcKwMDAnMDAuMCJX!5e0!3m2!1sen!2sca!4v1"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.276495164!2d-79.4253457!3d43.6862539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3127463c272f%3A0xfad171fa95c0d800!2sEmmanuel%20Church%20Of%20Jesus%20Christ%20Apostolic!5e0!3m2!1sen!2sca!4v1707830000000!5m2!1sen!2sca"
               width="100%"
               height="100%"
               style={{ border: 0, filter: 'grayscale(20%) sepia(10%)' }}
@@ -94,7 +94,7 @@ export const LocationSection: React.FC = () => {
               title="FTA Seminary Location"
             />
             <a
-              href="https://maps.google.com/?q=10+Maplewood+Ave+Toronto+Ontario"
+              href="https://www.google.com/maps/place/10+Maplewood+Ave,+York,+ON+M6C+1J1"
               target="_blank"
               rel="noopener noreferrer"
               className="absolute bottom-3 lg:bottom-4 right-3 lg:right-4 flex items-center gap-1.5 lg:gap-2 px-3 lg:px-4 py-2 bg-[var(--deep-purple)] text-white rounded-lg text-xs lg:text-sm font-semibold hover:bg-[var(--deep-purple)]/90 transition-all"
