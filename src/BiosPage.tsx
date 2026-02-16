@@ -12,7 +12,7 @@ type BioPerson = {
 
 const PEOPLE: BioPerson[] = [
   {
-    name: "D. Brereton",
+    name: "Bishop D.W Brereton",
     initials: "DB",
     image: "/4.png",
     title: "Metropolitan Bishop"
@@ -43,7 +43,7 @@ export default function BiosPage() {
       <div className="grain-overlay" />
       <Navigation />
 
-      <main className="relative pt-24 lg:pt-28 pb-20">
+      <main className="relative pt-48 lg:pt-64 pb-20">
         <section className="relative px-6 lg:px-12">
           <div className="pattern-overlay" />
 

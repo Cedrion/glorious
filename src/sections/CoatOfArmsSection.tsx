@@ -21,7 +21,7 @@ export const CoatOfArmsSection: React.FC = () => {
           className={`mb-6 lg:mb-8 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
         >
-          <div className="w-40 h-24 lg:w-64 lg:h-40 mx-auto flex items-center justify-center overflow-hidden">
+          <div className="w-56 h-36 lg:w-96 lg:h-60 mx-auto flex items-center justify-center overflow-hidden">
             <img
               src="/nav%20logo.png"
               alt="FTA Official Logo"

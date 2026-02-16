@@ -33,7 +33,7 @@ export const HeroSection: React.FC = () => {
 
 
       {/* Mobile Layout */}
-      <div className="lg:hidden flex flex-col min-h-screen pt-20 pb-8 px-6">
+      <div className="lg:hidden flex flex-col min-h-screen pt-36 pb-8 px-6">
         {/* Image */}
         <div
           className={`relative w-full aspect-[4/3] rounded-[18px] overflow-hidden card-shadow mb-6 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
