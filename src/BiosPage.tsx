@@ -12,7 +12,7 @@ type BioPerson = {
 
 const PEOPLE: BioPerson[] = [
   {
-    name: "Bishop D.W Brereton",
+    name: "Bishop W Brereton",
     initials: "DB",
     image: "/4.png",
     title: "Metropolitan Bishop"
