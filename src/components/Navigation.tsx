@@ -53,6 +53,7 @@ export const Navigation: React.FC<NavigationProps> = ({
     { label: 'Admissions', kind: 'section', id: 'semesters' },
     { label: 'About', kind: 'section', id: 'about' },
     { label: 'Bios', kind: 'route', href: '/bios' },
+    { label: 'Glorious House', kind: 'route', href: '/glorious-house' },
     { label: 'Contact', kind: 'section', id: 'contact' },
   ];
 
