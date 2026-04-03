@@ -156,7 +156,7 @@ const GloriousHousePage: React.FC = () => {
                 { title: "Neurobehavioral Support", desc: "Specialists in FASD and ASD programming with strengths-based interventions.", icon: <ShieldCheck /> },
                 { title: "Trauma Recovery", desc: "Focus on cultural trauma, brain injury recovery, and Indigenous wellness.", icon: <Heart /> },
                 { title: "Crisis Intervention", desc: "Expertise in behavioral challenges and mild intellectual delays.", icon: <ShieldCheck /> },
-                { title: "Diverse Mentorship", desc: "Indigenous Cultural Advisors and staff with LGBTQ+ Ally Training.", icon: <UserCheck /> },
+                { title: "Orderly Care", desc: "Our staff understand how to do things nicely and orderly, ensuring a professional and structured environment.", icon: <UserCheck /> },
                 { title: "Professional Staff", desc: "Child & Youth Workers, Educational Assistants, and Behavioral Therapists.", icon: <ShieldCheck /> },
                 { title: "Pastoral Care", desc: "Licensed Teachers and Pastoral Counsellors centering identity and faith.", icon: <Cross /> }
               ].map((specialty, i) => (
