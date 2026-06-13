@@ -54,6 +54,7 @@ export const Navigation: React.FC<NavigationProps> = ({
     { label: 'About', kind: 'section', id: 'about' },
     { label: 'Bios', kind: 'route', href: '/bios' },
     { label: 'Glorious House', kind: 'route', href: '/glorious-house' },
+    { label: 'Bring Back Our Boys', kind: 'route', href: '/bring-back-our-boys' },
     { label: 'Contact', kind: 'section', id: 'contact' },
   ];
 
